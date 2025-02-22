@@ -31,3 +31,7 @@ class EventosLinkRepository(EventosLinkRepositoryInterface):
                 .one_or_none()
             )
             return data
+
+
+    
+           
