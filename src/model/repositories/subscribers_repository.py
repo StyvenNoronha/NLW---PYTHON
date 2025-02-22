@@ -9,7 +9,7 @@ class SubscribersRepository(SubscribersRepositoryInterface):
                 new_subscriber = Inscritos(
                         nome=subscriber_infos.get("name"),   
                         email=subscriber_infos.get("email"),    
-                        link =subscriber_infos.get("link "),    
+                        link =subscriber_infos.get("link"),    
                         evento_id =subscriber_infos.get("evento_id")    
                 )
                 db.session.add(new_subscriber)
